@@ -345,5 +345,23 @@
 	<script type="text/javascript" charset="utf-8" src="apis/media.js"></script>
 	<script type="text/javascript" charset="utf-8" src="apis/notification.js"></script>
 	<script type="text/javascript" charset="utf-8" src="apis/storage.js"></script> 			
+	<script>
+	// alert dialog dismissed
+        function alertDismissed() {
+            // do something
+        }
+
+    // Show a custom alertDismissed
+    //
+    function showAlert() {
+	alert("here");
+        navigator.notification.alert(
+            'You are the winner!',  // message
+            alertDismissed,         // callback
+            'Game Over',            // title
+            'Done'                  // buttonName
+        );
+    }
+	</script>
   </body>
 </html>
