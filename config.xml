@@ -43,7 +43,7 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
-
+	
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
@@ -101,9 +101,5 @@
     <feature name="InAppBrowser">
       <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
     </feature>
-    <!-- Deprecated plugins element. Remove in 3.0 -->
-	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
-    <plugins>
-	
-    </plugins>
+    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
 </widget>
